@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="icon" type="images/x-icon" href="/logo-sam.jpg" />
+    <img src="/src/img/logo-sam.jpg" class="h-10 rounded-full" alt="SAM" />
+    <title>PT. Sampurna Abadi Makmur</title>
+  </head>
+  <body>
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-1"
+      >
+        <a href="#home" class="flex p-2 items-center rtl:space-x-reverse">
+          <img
+            src="/src/img/logo-sam.jpg"
+            class="h-10 rounded-full"
+            alt="SAM"
+          />
+          <span
+            class="self-center sm:text-2xl ml-3 text-base font-semibold whitespace-nowrap dark:text-white"
+            >Sampurna Abadi Makmur</span
+          >
+        </a>
+
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#home"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#tentang"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Tentang</a
+              >
+            </li>
+            <li>
+              <a
+                href="#GalerySAM"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Galery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="home"
+      style="background-image: url('/src/img/bg-1.jpg')"
+      class="bg-center bg-no-repeat bg-gray-500 bg-blend-multiply"
+    >
+      <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1
+          class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
+        >
+          Supplier Pasir Berkualitas di Bali
+        </h1>
+        <p
+          class="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48"
+        >
+          Tingkatkan Kualitas Proyek Anda dengan Pasir Berkualitas Terbaik di
+          Bali! Dapatkan Pelayanan Terpercaya dan Harga Kompetitif dari Suplier
+          Pasir Terkemuka Kami.
+        </p>
+        <div
+          class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0"
+        >
+          <a
+            onclick="sendWhatsAppMessage()"
+            class="inline-flex cursor-pointer justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#1FACCB] hover:bg-blue-400 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-500"
+          >
+            Pesan Sekarang
+            <svg
+              class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="mt-9 mx-auto px-4 max-w-screen-xl">
+      <div class="">
+        <h2
+          class="mb-7 text-2xl text-center font-extrabold tracking-tight leading-none text-black md:text-2xl lg:text-2xl"
+        >
+          Kenapa Harus Percaya Pada Kami?
+        </h2>
+      </div>
+
+      <div
+        class="px-4 flex flex-wrap items-center sm:justify-center lg:space-x-3"
+      >
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg mx-auto mt-4"
+              width="130"
+              height="130"
+              src="/src/img/responsif.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Layanan Responsif
+              </h5>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg mx-auto mt-4"
+              width="130"
+              height="130"
+              src="/src/img/top.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Berkualitas
+              </h5>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg mx-auto mt-4"
+              width="130"
+              height="130"
+              src="/src/img/makmur-dolar.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Harga Bersaing
+              </h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-9 mx-auto px-4 max-w-screen-xl">
+      <div class="">
+        <h2
+          class="mb-7 text-2xl text-center font-extrabold tracking-tight leading-none text-black md:text-2xl lg:text-2xl"
+        >
+          Tersedia Banyak Pilihan Jenis Pasir & Harganya Sesuai Kebutuhan Anda
+        </h2>
+      </div>
+
+      <div
+        class="px-4 flex flex-wrap items-center sm:justify-center lg:space-x-3"
+      >
+        <!-- Galery 1 -->
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div id="gallery1" class="relative w-full" data-carousel="slide">
+            <div class="relative h-56 overflow-hidden rounded-lg">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/pasircor-1.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="/src/img/pasircor-2.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/pasirsuper-1.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Pasir
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Untuk harga dan jenis pasirnya anda bisa cek langsung di dalam
+              detail harga.
+            </p>
+
+            <button
+              data-modal-target="default-modal"
+              data-modal-toggle="default-modal"
+              class="block text-white bg-[#1FACCB] hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-[#1FACCB] dark:hover:bg-blue-400 dark:focus:ring-blue-500"
+              type="button"
+            >
+              Detail Harga
+            </button>
+
+            <div
+              id="default-modal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700"
+                >
+                  <div
+                    class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
+                  >
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white"
+                    >
+                      Detail Pasir
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-hide="default-modal"
+                    >
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4">
+                    <div class="relative overflow-x-auto">
+                      <table
+                        class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                      >
+                        <thead
+                          class="text-xs text-gray-700 uppercase dark:text-gray-400"
+                        >
+                          <tr>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Jenis
+                            </th>
+                            <th scope="col" class="px-6 py-3">Ukuran</th>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Harga
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Pasir Cor
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 450.000
+                            </td>
+                          </tr>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Pasir Super
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 550.000
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galery 2 -->
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div id="gallery2" class="relative w-full" data-carousel="slide">
+            <div class="relative h-56 overflow-hidden rounded-lg">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/koral-1.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="/src/img/koral-2.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/koral-3.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/koral-4.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Koral
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Untuk harga dan jenis koralnya anda bisa cek langsung di dalam
+              detail harga.
+            </p>
+
+            <button
+              data-modal-target="default-modal-2"
+              data-modal-toggle="default-modal-2"
+              class="block text-white bg-[#1FACCB] hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#1FACCB] dark:hover:bg-blue-400 dark:focus:ring-blue-500"
+              type="button"
+            >
+              Detail Harga
+            </button>
+
+            <div
+              id="default-modal-2"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700"
+                >
+                  <div
+                    class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
+                  >
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white"
+                    >
+                      Detail Koral
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-hide="default-modal-2"
+                    >
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4">
+                    <div class="relative overflow-x-auto">
+                      <table
+                        class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                      >
+                        <thead
+                          class="text-xs text-gray-700 uppercase dark:text-gray-400"
+                        >
+                          <tr>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Jenis
+                            </th>
+                            <th scope="col" class="px-6 py-3">Ukuran</th>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Harga
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Koral 1/2
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 900.000
+                            </td>
+                          </tr>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Koral 2/3
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 500.000
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galery 3 -->
+        <div
+          class="w-96 mb-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div id="gallery2" class="relative w-full" data-carousel="slide">
+            <div class="relative h-56 overflow-hidden rounded-lg">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/abu-batu.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="/src/img/batu-pecah-1.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/src/img/batu-bulat.jpg"
+                  class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Batu
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Untuk harga dan jenis batunya anda bisa cek langsung di dalam
+              detail harga.
+            </p>
+
+            <button
+              data-modal-target="default-modal-3"
+              data-modal-toggle="default-modal-3"
+              class="block text-white bg-[#1FACCB] hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#1FACCB] dark:hover:bg-blue-300 dark:focus:ring-blue-500"
+              type="button"
+            >
+              Detail Harga
+            </button>
+
+            <div
+              id="default-modal-3"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700"
+                >
+                  <div
+                    class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
+                  >
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white"
+                    >
+                      Detail Batu
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-hide="default-modal-3"
+                    >
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4">
+                    <div class="relative overflow-x-auto">
+                      <table
+                        class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                      >
+                        <thead
+                          class="text-xs text-gray-700 uppercase dark:text-gray-400"
+                        >
+                          <tr>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Jenis
+                            </th>
+                            <th scope="col" class="px-6 py-3">Ukuran</th>
+                            <th
+                              scope="col"
+                              class="px-6 py-3 bg-gray-50 dark:bg-gray-800"
+                            >
+                              Harga
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Abu Batu
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 600.000
+                            </td>
+                          </tr>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Batu Pecah
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 700.000
+                            </td>
+                          </tr>
+                          <tr
+                            class="border-b border-gray-200 dark:border-gray-700"
+                          >
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+                            >
+                              Batu Bulat
+                            </th>
+                            <td class="px-6 py-4">1 Truck</td>
+                            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                              Rp. 700.000
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="GalerySAM"
+      style="background-image: url('/src/img/IMG_8689.jpg')"
+      class="mt-9 bg-center bg-no-repeat bg-gray-500 bg-blend-multiply md:h-[33rem]"
+    >
+      <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-20">
+        <h1
+          class="text-2xl text-center font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl"
+        >
+          Galery Sampurna Abadi Makmur
+        </h1>
+        <p class="mb-8 font-normal text-2xl text-white dark:text-gray-400">
+          Beberapa foto aktivitas
+        </p>
+        <div
+          id="custom-controls-gallery"
+          class="relative w-full"
+          data-carousel="slide"
+        >
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-[30rem]">
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8674.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8675.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8676.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8678.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8680.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8686.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="/src/img/IMG_8689.jpg"
+                class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex justify-center items-center pt-4">
+            <button
+              type="button"
+              class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
+              >
+                <svg
+                  class="rtl:rotate-180 w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 5H1m0 0 4 4M1 5l4-4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="flex justify-center items-center h-full cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
+              >
+                <svg
+                  class="rtl:rotate-180 w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="background-image: url(/src/img/IMG_8676.jpg)"
+      class="bg-center bg-no-repeat bg-gray-500 bg-blend-multiply md:h-52"
+    ></section>
+
+    <section class="md:h-[40rem]">
+      <div
+        class="px-4 mx-auto max-w-screen-xl py-9 md:py-0 lg:py-9 flex flex-wrap justify-between"
+      >
+        <div class="md:my-20">
+          <p class="text-2xl mb-3 font-semibold text-black dark:text-gray-400">
+            INGAT!!!
+          </p>
+          <h2
+            class="mb-3 text-2xl text-start font-extrabold tracking-tight leading-none text-[#1FACCB] md:text-2xl lg:text-5xl"
+          >
+            Bangun Rumah Atau Gedung <br />
+            Pasirnya Cuma Di <br />
+            Sampurnaabadimakmur.info <br />
+          </h2>
+          <p class="text-2xl mb-3 font-semibold text-black dark:text-gray-400">
+            Dijamin Aman dan 100% Terpercaya.
+          </p>
+          <button
+            type="button"
+            onclick="sendWhatsAppMessage()"
+            class="text-white bg-[#1FACCB] hover:bg-blue-500 focus:ring-4 focus:ring-blue-400 font-medium rounded-lg text-sm px-12 py-4 me-2 mb-2 dark:bg-blue-[#1FACCB] dark:hover:bg-blue-400 focus:outline-none dark:focus:ring-blue-300"
+          >
+            Klik Disini Sekarang
+          </button>
+        </div>
+        <div class="py-9 md:py-0 sm:mx-auto">
+          <img
+            src="/src/img/5193671.jpg"
+            alt="Mandor"
+            width="500"
+            height="500"
+            class="rounded-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="md:mt-48 lg:mt-56 xl:mt-0">
+      <div>
+        <svg
+          xmlns="https://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          class="-mb-40"
+        >
+          <path
+            fill="#63B8C6"
+            fill-opacity="1"
+            d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,58.7C672,43,768,53,864,74.7C960,96,1056,128,1152,133.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="w-full bg-[#63B8C6]">
+        <div class="w-10/12 mx-auto mt-12 py-7">
+          <div class="grid grid-cols-6 gap-5">
+            <div class="col-span-6 md:col-span-2">
+              <div
+                style="
+                  overflow: hidden;
+                  max-width: 100%;
+                  width: 500px;
+                  height: 300px;
+                "
+              >
+                <div
+                  id="embed-map-display"
+                  style="height: 100%; width: 100%; max-width: 100%"
+                >
+                  <iframe
+                    title="Google Maps Us"
+                    style="height: 100%; width: 100%; border: 0"
+                    frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?q=PT SAMPURNA ABADI MAKMURHFQC+82, Pering Sari, Kec. Selat, Kabupaten Karangasem, Bali, Indonesia&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  ></iframe>
+                </div>
+                <a
+                  class="embed-ded-maphtml"
+                  aria-label="Go to our places!"
+                  href="https://www.bootstrapskins.com/themes"
+                  id="authmaps-data"
+                ></a>
+                <style>
+                  #embed-map-display img {
+                    max-width: none !important;
+                    background: none !important;
+                    font-size: inherit;
+                    font-weight: inherit;
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="col-span-6 md:col-span-4">
+              <div class="grid grid-cols-2">
+                <div>
+                  <p class="font-bold text-gray-700">ADDRESS</p>
+                  <p class="text-gray-700">
+                    JL. Pering Sari, Kecamatan. Selat, Kabupaten Karangasem,
+                    Bali 80862.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-bold text-gray-700">CONTACTS</p>
+                  <p class="text-gray-700">
+                    Email : ptsampurnaabadimakmur<br />@gmail.com.<br />
+                    Phone : +6281239731812.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div class="mb-2 mt-1">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="Message"
+                  >
+                    Klik Tombol Dibawah Untuk Mengirim Pesan
+                  </label>
+                  <button
+                    class="bg-white rounded-xl px-6 py-2 font-bold text-gray-700 mt-1"
+                    type="button"
+                    onclick="sendWhatsAppMessage()"
+                  >
+                    Kirim
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a
+        target="_blank"
+        rel="noopener"
+        onclick="sendWhatsAppMessage()"
+        class="whatsapp-icon cursor-pointer"
+      >
+        <img src="/src/img/WA.png" alt="WhatsApp Icon" class="w-12 h-12" />
+      </a>
+      <style>
+        .whatsapp-icon {
+          position: fixed;
+          bottom: 40px;
+          right: 20px;
+          z-index: 999;
+        }
+      </style>
+    </div>
+    <footer>
+      <div class="w-full bg-[#63B8C6] border-t-4">
+        <div
+          class="text-white text-xl font-bold text-center w-10/12 mx-auto p-5"
+        >
+          Copyright (C) 2023 Sampurna Abadi Makmur | Privacy Policy
+        </div>
+      </div>
+    </footer>
+
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>
